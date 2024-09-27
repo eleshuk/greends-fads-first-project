@@ -1,0 +1,12 @@
+5.1. Can you explain the copy (cp ../temp-* .) command used above?
+- The command was used to copy all files that start with "temp" from a directory above my current directory, into my current directory. 
+
+5.2. Can you explain why, in this case, we did not have to do git init?
+- We didn't have to do git init because the greends-fads-first-project repository already exists in my GitHub because I forked it there. The repository just had to be cloned locally. 
+
+5.3. Can you commit the files copied? What do you need to do? Execute the commands that are needed.
+- Yes, one the files have been copied into the greends-fads-first-project repository directory, then I ran:
+
+git add .
+git commit -m "pushing files copied from my original folder to this repo" 
+git push
